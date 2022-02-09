@@ -69,7 +69,7 @@
 							<p class="title-portafolio">Full Stack:</p>
 							<div class="row">
 								<div class="col-6 col-12-mobile">
-									<article class="item">
+									<article class="item" id="recipe">
 										<a class="image fit"><img src="images/Recipe1.png" alt="" /></a>	
 										<a href="https://wayiok.github.io/ShoppingWeb/">
 											<button class="button"> 
@@ -81,68 +81,33 @@
 											View Code
 											</button>
 										</a>
-										<a> 
-											<button class="button" id="two">
+										<a href="#recipe-modal"> 
+											<button class="button">
 											Technologies Used
-											</button>				
+											</button>		
+											<div id="recipe-modal" class="modal-window">
+											  <div>
+											    <a href="#recipe" title="Close" class="modal-close">Close</a>
+											    <h1>Recipe Book:</h1>
+											    
+											    	<ul>
+											    		<li>Angular</li>
+											    		<li>HTML</li>
+											    		<li>CSS</li>
+											    	</ul>		
+
+											   
+												</div>
+											    </div>		
 										</a>
-											<div id="modal-container">
-											  <div class="modal-background">
-											    <div class="modal">
-											      <h3>Recipe Book</h3>
-											      <ul>
-											      	<li>Angular</li>
-											      	<li>Bootstrap</li>
-											      </ul>
-											      <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-													<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-																		</svg>
-											    </div>
-											  </div>
-											</div>
+
 										<header>
 											<h3>Recipe Book</h3>
 										</header>
 									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/Tesis.png" alt="" /></a>
-											<a href="https://tesisw.herokuapp.com/"> 
-												<button class="button">
-												Live Version 
-												</button>
-											</a>
-											<a href="https://github.com/wayiok/tesisw"> 
-											<button class="button">
-												View Code
-											</button>
-										</a>
-										<a> 
-											<button class="button" id="two" >
-											Technologies Used
-											</button>				
-										</a>
-											<div id="modal-container">
-											  <div class="modal-background">
-											    <div class="modal">
-											      <h3>Recipe Book</h3>
-											      <ul>
-											      	<li>Ruby on Rails</li>
-											      	<li>Bootstrap</li>
-											      	<li>Heroku</li>
-											      </ul>
-											      <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-																			<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-																		</svg>
-											    </div>
-											  </div>
-											</div>
-										<header>
-											<h3>System for Anomalies Detection</h3>
-										</header>
-									</article>
 								</div>
 								<div class="col-6 col-12-mobile">
-									<article class="item">
+									<article class="item" id=covid-map>
 										<a class="image fit"><img src="images/Map1.png" alt="" /></a>
 											<a href="https://covid-wacho.herokuapp.com/"> 
 											<button class="button">
@@ -154,30 +119,68 @@
 													View Code
 											</button>
 										</a>
-										<button class="button" id="two">
+										<a href="#map-modal"> 
+											<button class="button">
 											Technologies Used
-										</button>											
+											</button>		
+											<div id="map-modal" class="modal-window">
+											  <div>
+											    <a href="#covid-map" title="Close" class="modal-close">Close</a>
+											    <h1>Ecuador Covid Map:</h1>
+											    
+											    	<ul>
+											    		<li>Ruby on Rails</li>
+											    		<li>Javascript</li>
+											    		<li>MapBox</li>
+											    	</ul>		
+
+											   
+												</div>
+											    </div>		
+										</a>									
+
 										<header>
 											<h3>Ecuador Covid MAP</h3>
 										</header>
 									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/BasicWeb.png" alt="" /></a>
-										<a href="https://tesisw.herokuapp.com"> 
+								</div>
+								<div class="col-3 col-12-mobile"></div>
+								<div class="col-6 col-12-mobile">
+									<article class="item" id="anomalie">
+										<a class="image fit"><img src="images/Tesis.png" alt="" /></a>
+											<a href="https://tesisw.herokuapp.com/"> 
+												<button class="button">
+												Live Version 
+												</button>
+											</a>
+											<a href="https://github.com/wayiok/tesisw"> 
 											<button class="button">
-											Live Version 
+												View Code
 											</button>
 										</a>
-										<a href="https://github.com/wayiok/angular/"> 
-										<button class="button">
-											View Code
-										</button>
-										</a>
-										<button class="button" id="two">
+										<a href="#anomalie-modal"> 
+											<button class="button">
 											Technologies Used
-										</button>	
+											</button>		
+											<div id="anomalie-modal" class="modal-window">
+											  <div>
+											    <a href="#anomalie" title="Close" class="modal-close">Close</a>
+											    <h1>System for Anomalies Detection:</h1>
+											    
+											    	<ul>
+											    		<li>Ruby on Rails</li>
+											    		<li>Javascript</li>
+											    		<li>Bootstrap</li>
+											    		<li>Python</li>
+											    		<li>Heroku</li>
+											    	</ul>		
+
+											   
+												</div>
+											    </div>			
+										</a>
 										<header>
-											<h3>Angular Basic Webpage (Developing)</h3>
+											<h3>System for Anomalies Detection</h3>
 										</header>
 									</article>
 								</div>
@@ -186,6 +189,7 @@
 						<p class="title-portafolio">HTML and CSS customization:</p>
 							<div class="row">
 								<div class="col-6 col-12-mobile">
+
 									<article class="item">
 										<a class="image fit"><img src="images/United1.png" alt="" /></a>
 										<form action="https://unitedwaymw.org/covid-19/">
@@ -286,7 +290,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/modal.js"></script>
 
 	</body>
 </html>
